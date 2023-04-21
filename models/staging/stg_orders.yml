@@ -1,0 +1,16 @@
+version: 2
+# 2023-04-21
+models:
+  - name: stg_orders
+    description: Cleaned orders from raw source
+    columns:
+      - name: order_id
+        tests: [unique, not_null]
+      - name: customer_id
+        tests: [not_null]
+      - name: status
+        tests:
+          - accepted_values:
+              values: [completed, pending, cancelled, refunded]
+      - name: total_amount_usd
+        tests: [not_null]
