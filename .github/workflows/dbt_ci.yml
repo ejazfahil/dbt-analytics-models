@@ -1,0 +1,11 @@
+name: dbt CI
+on: [push]
+jobs:
+  dbt:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install dbt-postgres
+      - run: dbt compile
+      - run: dbt test
+# 2023-06-02
