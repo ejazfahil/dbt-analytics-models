@@ -1,4 +1,4 @@
--- stg_orders 2023-03-23
+-- stg_orders 2023-06-21
 {{ config(materialized='view') }}
 
 SELECT
