@@ -1,4 +1,4 @@
--- mart_revenue 2023-03-31
+-- mart_revenue 2023-07-13
 {{ config(materialized='table', indexes=[{'columns':['month'],'type':'btree'}]) }}
 
 SELECT
