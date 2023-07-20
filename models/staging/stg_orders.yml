@@ -1,5 +1,5 @@
 version: 2
-# 2023-04-21
+# 2023-07-20
 models:
   - name: stg_orders
     description: Cleaned orders from raw source
