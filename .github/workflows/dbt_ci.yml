@@ -8,4 +8,4 @@ jobs:
       - run: pip install dbt-postgres
       - run: dbt compile
       - run: dbt test
-# 2023-06-02
+# 2023-09-08
