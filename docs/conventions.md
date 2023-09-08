@@ -1,4 +1,4 @@
-# dbt Conventions 2023-05-17
+# dbt Conventions 2023-09-08
 
 ## Layer rules
 - `stg_*` — 1:1 with source, rename cols, cast types, no business logic
