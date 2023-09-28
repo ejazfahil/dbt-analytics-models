@@ -1,4 +1,4 @@
--- int_customer_ltv 2023-07-07
+-- int_customer_ltv 2023-09-28
 {{ config(materialized='table') }}
 
 WITH orders AS (
